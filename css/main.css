@@ -180,11 +180,19 @@ color: var(--white-text-color);}
 /* Hero */
 
 .hero{
-background-color: #2F303A;
 height: 600px;
 padding-bottom: 200px;
 padding-top: 200px;
 text-align: center;}
+
+.overlay {
+margin-right: auto;
+margin-left: auto;
+background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../images/Hero.jpg');
+background-position: center;
+background-size: cover;
+max-width: 1600px;
+background-color: #2F303A;}
 
 .hero-title {
 color: var(--white-text-color);
@@ -314,6 +322,18 @@ font-size: 16px;
 line-height: 1.18;
 letter-spacing: 0.03em;}
 
+.team-site {
+display: flex;
+justify-content: center;
+gap: 10px;
+margin-top: 16px;}
+
+.team-page{
+width: 44px;
+height: 44px;
+background-color: #f5f4fa;
+border-radius: 50%;}
+
 /* footer */
 
 .footer-bgk{
@@ -347,3 +367,22 @@ letter-spacing: 0.03em;}
 .contacts-bottom .link{padding: 0;}
 
 .footer-bgk a{padding: 0;}
+
+.footer-title{
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+color: var(--white-text-color);
+text-transform: uppercase;}
+
+.footer-site{
+display: flex;
+gap: 10px;
+margin-top: 16px;}
+
+.footer-page{
+width: 44px;
+height: 44px;
+background-color: #f5f4fa;
+border-radius: 50%;}
