@@ -73,8 +73,7 @@ padding-bottom: 24px;
 .logo-top{
 color: var(--primary-text-color);}
 
-.logo-botom {
-color:  var(--white-text-color);}
+
     
 /* site-nav */
 
@@ -183,7 +182,6 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px
 display: flex;
 flex-wrap: wrap;
 gap: 30px;
-margin-bottom: 50px;
 justify-content: center;
 }
 
@@ -195,7 +193,8 @@ width: calc((100% - 2 * 30px) / 3);}
 box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);}
 
 .list-gap{
-column-gap: 8px;}
+column-gap: 8px;
+margin-bottom: 50px;}
 
 .portfolio-text{
 padding: 20px 24px;
@@ -317,6 +316,7 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+margin-bottom: 10px;
 }
 
 .visually-hidden{
@@ -328,7 +328,6 @@ transform: scale(0);
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
-margin-top: 10px;
 }
 
 /* our work */
@@ -398,13 +397,14 @@ margin-bottom: 10px;
 font-size: 16px;
 line-height: 1.18;
 letter-spacing: 0.03em;
+margin-bottom: 16px;
 }
 
 .team-site {
 display: flex;
 justify-content: center;
 gap: 10px;
-margin-top: 16px;
+
 }
 
 .team-page{
@@ -441,6 +441,7 @@ gap: 30px;
 }
 
 .clients-icon{
+outline: transparent;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -461,10 +462,7 @@ fill: var(--accent-color);
 /* footer */
 
 .footer-container{
-margin-left: 0;
 margin-right: 70px;
-padding-left: 15px;
-padding-right: 15px;
 }
 
 .footer-bgk{
@@ -473,6 +471,19 @@ padding: 0;
 padding-top: 60px;
 padding-bottom: 60px;
 }
+
+.logo-footer{
+color: var(--accent-color);
+text-decoration: none;
+font-family: raleway, sans-serif, cursive;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.2;
+letter-spacing: 0.03em;
+}
+
+.logo-botom {
+color:  var(--white-text-color);}
 
 .address{
 color: #ffffff;
@@ -490,8 +501,8 @@ letter-spacing: 0.03em;
 }
 
 .contact-address{
-margin-top: 20px;
 font-style: normal;
+margin-top: 20px;
 }
 
 .contacts-bottom:not(:last-child){
@@ -509,12 +520,12 @@ line-height: 1.14;
 letter-spacing: 0.03em;
 color: var(--white-text-color);
 text-transform: uppercase;
+margin-bottom: 20px;
 }
 
 .footer-site{
 display: flex;
 gap: 10px;
-margin-top: 20px;
 }
 
 .footer-page{
